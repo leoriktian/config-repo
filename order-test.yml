@@ -6,9 +6,9 @@ spring:
     username: root
     password: root
     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
-rabbitmq:
-host: 192.168.1.8
-port: 5672
+  rabbitmq:
+    host: 192.168.1.8
+    port: 5672
     username: guest
     password: guest  
 eureka:
